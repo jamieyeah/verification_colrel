@@ -1,10 +1,9 @@
 
 import pymysql
-import pandas as pd
 
-db=pymysql.connect(host="",    # your host, usually localhost
-                         user="",         # your username
-                         passwd="",  # your password
+db=pymysql.connect(host="",    
+                         user="",         
+                         passwd="",  
                          db="",
                          charset="utf8")
 cur=db.cursor()
